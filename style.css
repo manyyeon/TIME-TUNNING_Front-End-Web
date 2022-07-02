@@ -154,21 +154,56 @@
 }
 
 .navbar {
-  height: 120px;
-  background-color: pink;
+  height: 76px;
+  width: auto;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .btn {
   height: 30px;
 }
 
+
 .ing {
   background-color: transparent;
+  font-size: 23px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.ing2{
+  background-color: transparent;
+  font-size: 23px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+}
+
+.scheduling {
+  font-size: 13px;
+  font-weight: bold;
+  color: #4B77F2;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-decoration: none;
 }
 
 .end {
-  background-color: transparent;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: black;
 }
+
+.scheduling:hover{
+  color: #4B77F2;
+}
+
+.end:hover{
+  color: #4B77F2;
+}
+
 
 .time-control {
   height: 100%;
