@@ -12,10 +12,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="main.js"></script>
 </head>
-  <body>
+  <body> 
     <header class="main-header">
       <h1 class="logo">
-        <img class="logo-image" src="logo.png" alt="타임튜닝 로고">
+        <img class="logo-image" src="./icons/logo.png" alt="타임튜닝 로고">
       </h1>
       <ul class="menu">
         <a class="tab" href="http://127.0.0.1:5500/index.html">홈</a>
@@ -23,7 +23,7 @@
         <a class="tab manage-schedule" href="http://127.0.0.1:5500/index.html">일정 관리</a>
         <a class="tab" href="http://127.0.0.1:5500/index.html">구민지님, 안녕하세요!</a>
       </ul>
-        <button class="menu-button"><img class="menu-image" src="menu.png"></button>
+        <button class="menu-button"><img class="menu-image" src="./icons/menu.png"></button>
         <div class="fullscreen">
         <ul class="fullscreen-menu">
             <a class="fullscreen-tab" href="http://127.0.0.1:5500/index.html">홈</a>
@@ -35,7 +35,10 @@
     </header>
     <section class="main-body">
       <nav class="navbar">
-        <a class="ing"><b class="ing2">조율 진행중</b>인 일정 탭</a>
+        <ul>            
+          <a class="ing"><b class="ing2">조율 진행중</b>인 일정 탭</a>&nbsp;
+          <button type="button" class="button" onclick="location.href='http://127.0.0.1:5500/index.html'"><img class="img" src="https://w7.pngwing.com/pngs/562/449/png-transparent-computer-icons-symbol-button-plus-miscellaneous-blue-logo.png"></button>
+        </ul>
             <ul>
                 <a class="scheduling" href="http://127.0.0.1:5500/index.html">일정 조율</a>&emsp;
                 <a class="end" href="http://127.0.0.1:5500/indexcheck.html">일정 확인</a>
