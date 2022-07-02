@@ -14,14 +14,17 @@
     padding: 0 50px;
     width: auto;
     height: 104px;
-    background-color: white;
+    background-color:white;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0 -30px 32px 0 black;
 }
 
 .logo {
     width: 240px;
     height: 56px;
+    padding-right: 150px;
+    background-color: transparent;
     position: relative;
     top: 20%;
     left: 5%;
@@ -33,9 +36,36 @@
 }
 
 .menu {
+    width: 700px;
     background-color: transparent;
+    position: relative;
+    top: 32%;
+    right: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
+.tab {
+    height: 30px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.tab:hover {
+    color: #4B77F2;
+}
+
+.manage-schedule {
+    color: #4B77F2;
+}
+
+.mypage-image {
+    width: 40px;
+    height: 40px;
+}
 
 /* --------body-------- */
 
