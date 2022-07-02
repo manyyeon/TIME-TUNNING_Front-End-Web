@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     height: 1000px;
-    background-color: aliceblue;
+    background-color: #fcfcfc;
 }
 
 
@@ -13,15 +13,23 @@
 .main-header {
     padding: 0 50px;
     width: auto;
-    height: 150px;
-    background-color: aquamarine;
+    height: 104px;
+    background-color: white;
     display: flex;
     justify-content: space-between;
 }
 
 .logo {
-    display: inline;
-    background-color: transparent;
+    width: 240px;
+    height: 56px;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.logo-image {
+    width: 240px;
+    height: 56px;
 }
 
 .menu {
@@ -34,7 +42,6 @@
 .main-body {
     width: 1000px;
     margin: 0 auto;
-    /* display: flex; */
     flex-direction: column;
     justify-content: center;
 }
@@ -68,5 +75,5 @@
 .footer {
     width: auto;
     height: 150px;
-    background-color: gray
+    background-color: white;
 }
