@@ -1,0 +1,72 @@
+/* -------global------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    background-color: aliceblue;
+}
+
+
+/* -------header------- */
+
+.main-header {
+    padding: 0 50px;
+    width: auto;
+    height: 150px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline;
+    background-color: transparent;
+}
+
+.menu {
+    background-color: transparent;
+}
+
+
+/* --------body-------- */
+
+.main-body {
+    width: 1000px;
+    margin: 0 auto;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    .main-body {
+        width: auto;
+    }
+}
+
+.navbar {
+    height: 120px;
+    background-color: pink;
+}
+
+.ing {
+    background-color: transparent;
+}
+
+.end {
+    background-color: transparent;
+}
+
+.time-control {
+    height: 100%;
+    background-color: bisque;
+}
+
+
+/* -------footer-------- */
+.footer {
+    width: auto;
+    height: 150px;
+    background-color: gray
+}
