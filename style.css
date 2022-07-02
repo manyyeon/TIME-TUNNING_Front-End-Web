@@ -204,6 +204,15 @@
   color: #4B77F2;
 }
 
+.button{
+  height: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.img{
+  height: 20px;
+}
 
 .time-control {
   height: 100%;
