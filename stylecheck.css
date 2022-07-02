@@ -197,19 +197,21 @@
 .time-control {
     height: 100%;
     width:  100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
+    display: flex;
+    /*justify-content: center;
+    margin: 0 auto;
+    align-items: center;*/
+    flex-direction: column; 
     background-color: transparent  ;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: bold;
     font-size: 40px;
-    color: black;
+    color: #D4DFFF;
     text-align: center;
 }
+
 .button{
-    height: 20px;
+    height: 10px;
     border: none;
     background-color: transparent;
 }
@@ -221,6 +223,10 @@
 }
 
 .end:hover{
+    color: #4B77F2;
+}
+
+.img:hover{
     color: #4B77F2;
 }
 
