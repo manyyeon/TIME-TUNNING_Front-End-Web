@@ -57,13 +57,85 @@
     color: #4B77F2;
 }
 
+.mypage-image {
+    width: 40px;
+    height: 40px;
+}
+
+.menu-button {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    position: relative;
+    top: 25%;
+    border: 0;
+}
+
+.menu-image {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.menu-button:hover {
+    filter: opacity(0.5) drop-shadow(0 0 0 #4B77F2);
+}
+
+.fullscreen {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.fullscreen-menu {
+    position: relative;
+    width : 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    top: 20%;
+    bottom: 10%;
+    background-color: transparent;
+}
+
+.fullscreen-tab {
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+.fullscreen-tab:hover {
+    color: #4B77F2;
+}
+
+.fullscreen {
+    display: none;
+}
+
 .manage-schedule {
     color: #4B77F2;
 }
 
-.mypage-image {
-    width: 40px;
-    height: 40px;
+@media (min-width: 1000px) {
+    .menu-button {
+        display: none;
+    }
+
+    .fullscreen {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .menu {
+        display: none;
+    }
 }
 
 /* --------body-------- */
@@ -174,7 +246,9 @@
 
 /* -------footer-------- */
 .footer {
-    width: auto;
-    height: 150px;
+    width: 100%;
+    height: 100px;
     background-color: white;
+    position: relative;
+    top: 20px;
 }
