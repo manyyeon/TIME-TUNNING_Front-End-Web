@@ -7,7 +7,6 @@
     background-color: #fcfcfc;
 }
 
-
 /* -------header------- */
 
 .main-header {
@@ -149,29 +148,101 @@
 }
 
 @media (max-width: 1000px) {
-    .main-body {
-        width: auto;
-    }
+  .main-body {
+    width: auto;
+  }
 }
 
 .navbar {
-    height: 120px;
-    background-color: pink;
+  height: 120px;
+  background-color: pink;
+}
+
+.btn {
+  height: 30px;
 }
 
 .ing {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .end {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .time-control {
-    height: 100%;
-    background-color: bisque;
+  height: 100%;
+  background-color: bisque;
 }
 
+.schedules {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.scheduleBox {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  margin: 0.4rem 0px;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.scheduleBoxColor1 {
+  border-left: solid 0.5rem #99c0f6;
+}
+
+.scheduleBoxColor2 {
+  border-left: solid 0.5rem #badfd2;
+}
+
+.scheduleCircle {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.scheduleCircleColor1 {
+  background-color: #99c0f6;
+}
+
+.scheduleCircleColor2 {
+  background-color: #badfd2;
+}
+
+.scheduleContent {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 2.5rem;
+  background-color: transparent;
+}
+
+.scheduleTitle {
+  height: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: transparent;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #3f3f3f;
+}
+
+.schedulePeople {
+  height: 1rem;
+  background-color: transparent;
+  color: #858585;
+}
+
+.bellOff {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: transparent;
+}
 
 /* -------footer-------- */
 .footer {
